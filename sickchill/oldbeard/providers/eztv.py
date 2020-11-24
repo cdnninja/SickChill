@@ -11,7 +11,9 @@ class Provider(TorrentProvider):
     def __init__(self):
 
         # Provider Init
-        super().__init__("EZTV")
+        super().__init__("
+                         
+                         ")
 
         # Credentials
         self.public = True
@@ -21,7 +23,7 @@ class Provider(TorrentProvider):
         self.minleech = 0
 
         # URLs
-        self.url = "https://eztv.io"
+        self.url = "https://eztv.re"
         self.api = urljoin(self.url, "api/get-torrents")
 
         # Cache
